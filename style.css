@@ -1,0 +1,28 @@
+h1 {
+    
+    color: palevioletred;
+    padding: 10px;
+    margin: 5px;
+   text-align: center;
+    border-bottom: solid lightgreen 2px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    gap: 20px;
+    width: 1500px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+div img {
+    height: 400px;
+    width: 300px;
+}
+
+div img:hover{ border: black solid 2px;} 
